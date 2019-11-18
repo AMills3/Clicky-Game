@@ -40,13 +40,13 @@ if(this.state.highScore <= this.state.score) {
   this.setState({
     message: "Card never chosen.",
     score: this.state.score + 1
-      })
-    }
-  }
-}
+      });
+    };
+  };
+};
 
 render() {
-  return (
+  return(
     <div>
       <Navbar message={this.state.message} score={this.state.score} highScore={this.state.highScore}/>
       <Header />
@@ -56,8 +56,8 @@ render() {
       <Footer />
     </div>
   );
-}
+};
 
-}
+};
 
 export default App;
