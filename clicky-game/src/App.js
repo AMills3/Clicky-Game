@@ -52,7 +52,7 @@ render() {
       <Header />
 
       (Need to define cardsContainer as a function later)
-      <cardsContainer clickImage={this.clickImage}/>
+      <CardsFolder clickImage={this.clickImage}/>
       <Footer />
     </div>
   );
