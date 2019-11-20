@@ -51,7 +51,7 @@ render() {
       <Navbar message={this.state.message} score={this.state.score} highScore={this.state.highScore}/>
       <Header />
 
-      (Need to define cardsContainer as a function later)
+      
       <CardsFolder clickImage={this.clickImage}/>
       <Footer />
     </div>
