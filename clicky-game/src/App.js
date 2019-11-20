@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import CardsFolder from "./components/CardsFolder";
 
-class App extends Component {
+class App extends React.Component {
   state = {
     cardsSelected: [],
     score: 0,
