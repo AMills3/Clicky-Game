@@ -5,18 +5,18 @@ import "./style.css";
 function Cards(props) {
     let cardsArray = [
         // Place 12 cards inside array for user to interact with
-        <img key="1" id="1" src={require(`../../assets/Annie.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="2" id="2" src={require(`../../assets/Braum.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="3" id="3" src={require(`../../assets/Draven.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="4" id="4" src={require(`../../assets/Fizz.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="5" id="5" src={require(`../../assets/Karthus.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="6" id="6" src={require(`../../assets/Leona.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="7" id="7" src={require(`../../assets/Lucian.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="8" id="8" src={require(`../../assets/Malphite.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="9" id="9" src={require(`../../assets/Teemo.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="10" id="10" src={require(`../../assets/Varus.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="11" id="11" src={require(`../../assets/Vi.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
-        <img key="12" id="12" src={require(`../../assets/Volibear.jpg`)} onClick={props.handleImageClick} className="img-thumbnail" alt="ang"/>,
+        <img key="1" id="1" src={require(`../../assets/Annie.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="2" id="2" src={require(`../../assets/Braum.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="3" id="3" src={require(`../../assets/Draven.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="4" id="4" src={require(`../../assets/Fizz.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="5" id="5" src={require(`../../assets/Karthus.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="6" id="6" src={require(`../../assets/Leona.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="7" id="7" src={require(`../../assets/Lucian.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="8" id="8" src={require(`../../assets/Malphite.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="9" id="9" src={require(`../../assets/Teemo.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="10" id="10" src={require(`../../assets/Varus.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="11" id="11" src={require(`../../assets/Vi.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
+        <img key="12" id="12" src={require(`../../assets/Volibear.jpg`)} onClick={props.clickImage} className="img-thumbnail" alt="ang"/>,
                     ];
 
 
