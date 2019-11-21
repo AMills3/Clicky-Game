@@ -16,10 +16,10 @@ class App extends React.Component {
 
 //Clicking on an image
   clickImage = event => {
-  let imageId = event.target.id;
+  let cardId = event.target.id;
 
 //Players loses if they click on an image twice
-  if(this.state.cardSelected.includes(imageId)) {
+  if(this.state.cardSelected.includes(cardId)) {
   this.setState({
     score: 0, 
     cardSelected: [],
@@ -27,7 +27,7 @@ class App extends React.Component {
   });
 
   } else {
-    this.state.cardSelected.push(imageId);
+    this.state.cardSelected.push(cardId);
 
 //Updating the score
 if(this.state.highScore <= this.state.score) {
